@@ -10,7 +10,7 @@ public class WaveConfigSo : ScriptableObject
     [SerializeField] private float shipSpeed = 5f;
     [SerializeField] private float timeBetweenEnemySpawns = 1f;
     [SerializeField] private float spawnTimeVariance = 0f;
-    [SerializeField] private float minimunSpawnTime = 0.2f;
+    [SerializeField] private float minimumSpawnTime = 0.2f;
     
     public Transform GetStartingWaypoint()
     {
@@ -44,6 +44,6 @@ public class WaveConfigSo : ScriptableObject
             timeBetweenEnemySpawns + spawnTimeVariance
         );
 
-        return Mathf.Clamp(spawnTime, minimunSpawnTime, float.MaxValue);
+        return Mathf.Clamp(spawnTime, minimumSpawnTime, float.MaxValue);
     }
 }
