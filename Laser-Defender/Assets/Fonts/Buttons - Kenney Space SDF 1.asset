@@ -100,10 +100,10 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 0.3137255, g: 0.2, b: 0.85882354, a: 1}
+    - _FaceColor: {r: 0.101960786, g: 0.0627451, b: 0.26666668, a: 1}
     - _GlowColor: {r: 0.73333335, g: 0.22745098, b: 0.827451, a: 1}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
-    - _OutlineColor: {r: 0.73333335, g: 0.22745098, b: 0.827451, a: 1}
+    - _OutlineColor: {r: 0.14901961, g: 0.101960786, b: 0.3529412, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
@@ -119,11 +119,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Kenney Space SDF
+  m_Name: Buttons - Kenney Space SDF 1
   m_EditorClassIdentifier: 
-  hashCode: 354733959
+  hashCode: -2032529698
   material: {fileID: -2293437392097084330}
-  materialHashCode: -244811833
+  materialHashCode: 1512982078
   m_Version: 1.1.0
   m_SourceFontFileGUID: acc05d89e149cbf4a9714840f6a9f503
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: acc05d89e149cbf4a9714840f6a9f503, type: 3}
